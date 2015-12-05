@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.py
+django_introspect.egg-info/PKG-INFO
+django_introspect.egg-info/SOURCES.txt
+django_introspect.egg-info/dependency_links.txt
+django_introspect.egg-info/top_level.txt
+docs/placeholder.txt
+introspect/__init__.py
+introspect/admin.py
+introspect/models.py
+introspect/tests.py
+introspect/urls.py
+introspect/views.py
+introspect/templates/introspect/introspect.txt

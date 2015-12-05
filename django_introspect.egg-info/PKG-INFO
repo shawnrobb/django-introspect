@@ -1,0 +1,44 @@
+Metadata-Version: 1.1
+Name: django-introspect
+Version: 0.1
+Summary: A simple Django app to return version of django running on "this" webserver.
+Home-page: https://www.example.com/
+Author: Shawn Robb
+Author-email: shawnrobb@yahoo.ca
+License: BSD License
+Description: Django Introspect
+        =================
+        
+        Django Introspect is a simple Django app which returns the current version
+        of a running django app as plain text.
+        
+        Detailed documentation is in the "docs" directory.
+        
+        Quick start
+        -----------
+        
+        1. Add "introspect" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+                'introspect',
+            ]
+        
+        2. Include the polls URLconf in your project urls.py like this::
+        
+            url(r'^introspect/', include('introspect.urls')),
+        
+        3. Visit http://127.0.0.1:8000/introspect/ to see the current version of
+        django which is running in this web server.
+        
+        Note that you must be logged in as
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
